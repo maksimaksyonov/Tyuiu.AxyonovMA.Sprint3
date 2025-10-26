@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib", "Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib\Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib.csproj", "{888D3569-1DE7-4570-8386-5F6DEF5E5431}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AxyonovMA.Sprint3.Task0.V16.Test", "Tyuiu.AxyonovMA.Sprint3.Task0.V16.Test\Tyuiu.AxyonovMA.Sprint3.Task0.V16.Test.csproj", "{8CAA8B66-A53A-4C84-8288-EECC97CEF95D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AxyonovMA.Sprint3.Task0.V16", "Tyuiu.AxyonovMA.Sprint3.Task0.V16\Tyuiu.AxyonovMA.Sprint3.Task0.V16.csproj", "{9BA91B0E-E802-4A14-9368-B06C25278B37}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{BF6B0871-7B14-4BC1-84A4-2D19F4B88855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
