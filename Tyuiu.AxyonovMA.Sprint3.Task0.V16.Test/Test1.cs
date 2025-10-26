@@ -7,21 +7,22 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Test
     public class Test1
     {
         [TestMethod]
-        public void CalculateProduct_ReturnsCorrectResult()
+        public void TestGetMultiplySeries()
         {
             DataService ds = new DataService();
-            double x = 5;
+            int x = 5;
+            int startValue = 1;
+            int stopValue = 6;
 
-            double expected = Math.Round(Math.Pow(5.0 / 1, 3) *
-                                         Math.Pow(5.0 / 2, 3) *
-                                         Math.Pow(5.0 / 3, 3) *
-                                         Math.Pow(5.0 / 4, 3) *
-                                         Math.Pow(5.0 / 5, 3) *
-                                         Math.Pow(5.0 / 6, 3), 3);
+            double expected = 1;
+            for (int k = startValue; k <= stopValue; k++)
+            {
+                expected *= Math.Pow((double)x / k, 3);
+            }
+            expected = Math.Round(expected, 6);
 
-            double actual = ds.CalculateProduct(x);
-
+            double actual = ds.GetMultiplySeries(x, startValue, stopValue);
             Assert.AreEqual(expected, actual);
         }
     }
-} 
+}
