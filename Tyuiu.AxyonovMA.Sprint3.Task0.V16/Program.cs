@@ -28,4 +28,4 @@ Console.WriteLine($"p = {result:F3}");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("Нажмите любую клавишу для выхода...");
 Console.ReadKey();
- 
+Console.WriteLine();

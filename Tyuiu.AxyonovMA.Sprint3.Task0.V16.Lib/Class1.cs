@@ -17,8 +17,6 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib
         }
 
         public double GetMultiplySeries(int value, int startValue, int stopValue)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
