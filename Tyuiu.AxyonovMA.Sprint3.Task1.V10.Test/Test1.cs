@@ -7,25 +7,22 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task1.V10.Test
     public class Test1
     {
         [TestMethod]
-        public void TestGetSumSeries()
+        public void GetSumSeries_Correct()
         {
-            DataService ds = new DataService();
-            int x = 5;
-            int startValue = 1;
-            int stopValue = 17;
+            var ds = new DataService();
+            int x = 5, start = 1, stop = 17;
 
             double expected = 0;
-            int i = startValue;
-            while (i <= stopValue)
+            int i = start;
+            while (i <= stop)
             {
-                expected += 1.0 / (i + Math.Pow(x, i));
+                double term = 1.0 / (i + Math.Pow(x, i));
+                expected += Math.Pow(term, i);
                 i++;
             }
-
             expected = Math.Round(expected, 3, MidpointRounding.AwayFromZero);
-            double actual = ds.GetSumSeries(x, startValue, stopValue);
 
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected, ds.GetSumSeries(x, start, stop));
         }
     }
 }

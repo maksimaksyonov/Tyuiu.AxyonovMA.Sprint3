@@ -8,14 +8,12 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task1.V10.Lib
         {
             double s = 0;
             int i = startValue;
-
             while (i <= stopValue)
             {
-                s += 1.0 / (i + Math.Pow(value, i));
+                double term = 1.0 / (i + Math.Pow(value, i));
+                s += Math.Pow(term, i);   // ВОЗВОДИМ В СТЕПЕНЬ i
                 i++;
             }
-
-            // Округляем до 3 знаков, как требует система
             return Math.Round(s, 3, MidpointRounding.AwayFromZero);
         }
     }
