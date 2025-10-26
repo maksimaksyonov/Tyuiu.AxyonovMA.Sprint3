@@ -24,4 +24,4 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Test
             Assert.AreEqual(expected, actual);
         }
     }
-}
+} 
