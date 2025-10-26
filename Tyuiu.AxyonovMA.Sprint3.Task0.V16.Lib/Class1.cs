@@ -1,6 +1,8 @@
-﻿namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
+
+namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib
 {
-    public class DataService
+    public class DataService : ISprint3Task0V16
     {
         public double CalculateProduct(double x)
         {
@@ -12,6 +14,11 @@
             }
 
             return Math.Round(p, 3);
+        }
+
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AxyonovMA.Sprint3.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AxyonovMA.Sprint3.Task0.V16", "Tyuiu.AxyonovMA.Sprint3.Task0.V16\Tyuiu.AxyonovMA.Sprint3.Task0.V16.csproj", "{9BA91B0E-E802-4A14-9368-B06C25278B37}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{E2886863-5B77-4F29-BD77-3B2131A2EF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
