@@ -13,7 +13,8 @@ namespace Tyuiu.AxyonovMA.Sprint3.Task0.V16.Lib
                 p *= Math.Pow((double)value / k, 3);
             }
 
-            return Math.Round(p, 6);
+            // Округляем до 3 знаков после запятой
+            return Math.Round(p, 3, MidpointRounding.AwayFromZero);
         }
     }
 }

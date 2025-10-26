@@ -9,11 +9,8 @@ Console.WriteLine("* Вариант #16                                         
 Console.WriteLine("* Выполнил: Аксёнов Максим Алексеевич | ПКТб-25-1                         *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
-Console.WriteLine("* Используя цикл for, вычислить произведение ряда по формуле:             *");
-Console.WriteLine("*                                                                         *");
-Console.WriteLine("*          6                                                              *");
-Console.WriteLine("*     p = ∏ ((x / k)^3), при x = 5                                        *");
-Console.WriteLine("*         k=1                                                             *");
+Console.WriteLine("* Написать программу, используя цикл for, которая вычисляет произведение *");
+Console.WriteLine("* ряда по формуле p = Π (x / k)^3 при x = 5, k = 1..6                    *");
 Console.WriteLine("***************************************************************************");
 
 int x = 5;
@@ -25,10 +22,10 @@ double result = ds.GetMultiplySeries(x, startValue, stopValue);
 
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine($"x = {x}");
-Console.WriteLine($"Начальное значение = {startValue}");
-Console.WriteLine($"Конечное значение = {stopValue}");
+Console.WriteLine($"Начальное значение k = {startValue}");
+Console.WriteLine($"Конечное значение k = {stopValue}");
 Console.WriteLine("***************************************************************************");
-Console.WriteLine($"Результат: p = {result:F6}");
+Console.WriteLine($"РЕЗУЛЬТАТ: p = {result:F3}");
 Console.WriteLine("***************************************************************************");
 
 Console.WriteLine("Нажмите любую клавишу для выхода...");
